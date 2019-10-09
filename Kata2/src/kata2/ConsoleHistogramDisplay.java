@@ -1,0 +1,12 @@
+package kata2;
+
+public class ConsoleHistogramDisplay implements HistogramDisplay {
+    
+    @Override
+    public void show(Histogram histogram) {
+        for (Integer value : histogram) {
+            System.out.println(value + " " + histogram.getCounts(value));
+        }    
+    }
+
+}
