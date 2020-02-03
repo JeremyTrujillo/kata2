@@ -1,4 +1,4 @@
-package kata2;
+package kata2.model;
 
 import java.util.HashMap;
 import java.util.Iterator;

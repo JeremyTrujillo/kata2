@@ -1,5 +1,8 @@
 package kata2;
 
+import kata2.view.ConsoleHistogramDisplay;
+import kata2.model.Histogram;
+
 public class Kata2 {
 
     public static void main(String[] args) {
